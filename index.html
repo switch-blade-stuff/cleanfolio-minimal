@@ -1,232 +1,178 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Raj Shekhar</title>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-      <h3>
-        <a href="https://rjshkhr.github.io/cleanfolio-minimal" class="link"
-          >RS.</a
-        >
-      </h3>
 
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
-          </li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" /> -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Mikhail Terekhin</title>
+</head>
 
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
+<body class="dark" id="top">
+  <header class="header center">
+    <h3>
+      <a href="https://switch-blade-stuff.github.io/portfolio" class="link">MT</a>
+    </h3>
 
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
-        >
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </header>
+    <nav class="nav center">
+      <ul class="nav-list center">
+        <li class="nav-list-item">
+          <a class="link link-nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="link link-nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="link link-nav" href="#contact">Contact</a>
+        </li>
+      </ul>
 
-    <main>
-      <!-- About -->
-      <div class="about center">
-        <h1>Hi, I am <span class="about__name">Raj Shekhar.</span></h1>
-        <h2 class="about__role">A Front end Developer.</h2>
-        <p class="about__desc">
-          Consectetur neque sed quam molestiae consectetur nesciunt sit alias
-          Vitae libero perferendis reprehenderit optio veritatis Accusantium at
-          voluptatum cumque temporibus et Explicabo iste porro quis numquam
-          distinctio Repellendus adipisci nam perferendis amet eaque hic
-          Voluptates
-        </p>
+      <button type="button" aria-label="toggle theme" class="btn btn-icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+      <button type="button" aria-label="toggle navigation" class="btn btn-icon nav-hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
 
-        <div class="about__contact center">
-          <a href="https://example.com">
-            <span class="btn btn--outline">Resume</span>
-          </a>
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1>Hi, I'm <span class="about-name">Mikhail Terekhin</span></h1>
+      <!-- <h2 class="about-role"></h2> -->
+      <h3 class="about-desc">I am a dilligent software developer with a deep interest in low-level software development
+        and system engineering</h3>
 
-          <a
-            href="https://github.com/rjshkhr"
-            aria-label="github"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-
-          <a
-            href="https://linkedin.com/in/rjshkhr"
-            aria-label="linkedin"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
-
-        <div class="projects__grid">
-          <div class="project">
-            <h3>Project 1</h3>
-            <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <h3>Project 2</h3>
-            <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <h3>Project 3</h3>
-            <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills -->
-      <section class="section skills" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">HTML</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">SCSS</li>
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
-          <li class="skills__list-item btn btn--plain">TypeScript</li>
-          <li class="skills__list-item btn btn--plain">React</li>
-          <li class="skills__list-item btn btn--plain">Redux</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-          <li class="skills__list-item btn btn--plain">Material UI</li>
-          <li class="skills__list-item btn btn--plain">Jest</li>
-          <li class="skills__list-item btn btn--plain">Enzyme</li>
-          <li class="skills__list-item btn btn--plain">CI/CD</li>
-        </ul>
-      </section>
-
-      <!-- Contact -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <a href="mailto:rjshekhar.official@gmail.com">
-          <span class="btn btn--outline">Email me</span>
+      <div class="about-contact center">
+        <a href="https://github.com/switch-blade-stuff" aria-label="github" class="link link-icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
         </a>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <a
-        href="https://github.com/rjshkhr/cleanfolio-minimal"
-        class="link footer__link"
-      >
-        Created By Raj Shekhar
-      </a>
-    </footer>
-
-    <div class="scroll-container">
-      <div class="scroll-top">
-        <a aria-label="Scroll up" href="#top">
-          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        <a href="https://www.linkedin.com/in/mikhail-terekhin-297217336" aria-label="linkedin" class="link link-icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
         </a>
       </div>
     </div>
 
-    <script src="./script.js"></script>
-  </body>
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>Galena</h3>
+          <p class="project-description">
+            Strongly typed, statically compiled general-purpose programming language focused on memory safety, ABI
+            stability, and rich metaprogramming features
+          </p>
+          <ul class="project-stack">
+            <li class="project-stack-item">Rust</li>
+            <li class="project-stack-item">LLVM</li>
+          </ul>
+          <p>WIP</p>
+        </div>
+
+        <div class="project">
+          <h3>TPP</h3>
+          <p class="project-description">
+            An assorted collection of hash table algorithms for use with C++17 and above
+          </p>
+          <ul class="project-stack">
+            <li class="project-stack-item">C++17</li>
+            <li class="project-stack-item">CMake</li>
+          </ul>
+          <a href="https://github.com/switch-blade-stuff/tpp" aria-label="source code" class="link link-icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>DPM</h3>
+          <p class="project-description">
+            SIMD math library implementing the data-parallel math TS for C++20 and above
+          </p>
+          <ul class="project-stack">
+            <li class="project-stack-item">C++20</li>
+            <li class="project-stack-item">CMake</li>
+            <li class="project-stack-item">SIMD</li>
+          </ul>
+          <a href="https://github.com/switch-blade-stuff/dpm" aria-label="source code" class="link link-icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>ROD</h3>
+          <p class="project-description">
+            Async, IO, and filesystem framework for C++20 and above. Featuring coroutines, scheduling, timers, and a
+            TOCTOU-aware filesystem API
+          </p>
+          <ul class="project-stack">
+            <li class="project-stack-item">C++20</li>
+            <li class="project-stack-item">CMake</li>
+            <li class="project-stack-item">async</li>
+            <li class="project-stack-item">Linux</li>
+            <li class="project-stack-item">WinNT</li>
+          </ul>
+          <a href="https://github.com/switch-blade-stuff/rod" aria-label="source code" class="link link-icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li class="skills-list-item btn btn-plain">C/C++</li>
+        <li class="skills-list-item btn btn-plain">Rust</li>
+        <li class="skills-list-item btn btn-plain">Go</li>
+        <li class="skills-list-item btn btn-plain">C#</li>
+        <li class="skills-list-item btn btn-plain">JavaScript</li>
+        <li class="skills-list-item btn btn-plain">Python</li>
+        <li class="skills-list-item btn btn-plain">Lua</li>
+        <li class="skills-list-item btn btn-plain">CMake</li>
+        <li class="skills-list-item btn btn-plain">Cargo</li>
+        <li class="skills-list-item btn btn-plain">Git</li>
+        <li class="skills-list-item btn btn-plain">Linux</li>
+        <li class="skills-list-item btn btn-plain">NeoVim</li>
+        <li class="skills-list-item btn btn-plain">SIMD - x86/64, ARM</li>
+        <li class="skills-list-item btn btn-plain">MCUs - AVR, ST32</li>
+        <li class="skills-list-item btn btn-plain">Google Cloud Platform</li>
+        <li class="skills-list-item btn btn-plain">Firebase</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <a href="mailto:terekhin.mikhail.01@gmail.com">
+        <span class="btn btn-outline">Email Me</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/rjshkhr/cleanfolio-minimal" class="link footer-link">
+      Template by Raj Shekhar
+    </a>
+  </footer>
+
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
